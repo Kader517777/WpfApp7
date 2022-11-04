@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="HOME" Height="879" Width="1446">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,10,0">
+            <Button Height="30" Width="130" Content="Home" x:Name="Home" FontWeight="Bold" FontSize="20" Click="home_bt"/>
+            <Button Height="30" Width="130" Content="NID INFO" x:Name="NID_INFO" FontWeight="Bold" FontSize="20" Click="nid_info_bt"/>
+            <Button Height="30" Width="130" Content="NID Search" x:Name="NID_Search" FontWeight="Bold" FontSize="20" Click="nid_search_bt"/>
+            <Button Height="30" Width="130" Content="Name Search" x:Name="Name_Search" FontWeight="Bold" FontSize="20" Click="name_search_bt"/>
+        </StackPanel>
+        <Frame Margin="0,30,0,0" x:Name="main" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>
